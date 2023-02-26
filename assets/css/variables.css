@@ -1,0 +1,33 @@
+/* FONT 1 */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+
+/* FONT 2 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    /* PRIMARY */
+    --primary-red: hsl(356, 100%, 66%); /* CTA text */
+    --primary-light-red: hsl(355, 100%, 74%); /* CTA hover bg */
+    --primary-dark-blue: hsl(208, 49%, 24%); /* headings */
+
+    /* NEUTRAL */
+    --neutral-white: hsl(0, 0%, 100%); /* text */
+    --neutral-grayish-blue: hsl(240, 2%, 79%); /* footer text */
+    --neutral-dark-grayish-blue: hsl(207, 13%, 34%);  /* body copy */
+    --neutral-dark-black-blue: hsl(240, 10%, 16%); /* footer background */
+
+    /* BG GRADIENT (Intro/CTA mobile nav)*/
+    --gradient-very-light-red: hsl(13, 100%, 72%);
+    --gradient-light-red: hsl(353, 100%, 62%);
+
+    /* BG GRADIENT (Body)  */
+    --gradient-dark-gray-blue: hsl(237, 17%, 21%);
+    --gradient-dark-desaturated-blue: hsl(237, 23%, 32%);
+
+    /* FONT */
+    --default-size: 16px;
+    --default-family-1: "Overpass", sans-serif;
+    --default-weight-1: 300;
+    --default-family-2: "Ubuntu", sans-serif;
+    --default-weight-2: 400;
+}
