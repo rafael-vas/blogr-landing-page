@@ -448,6 +448,7 @@ body {
 
 .footer-container ul li a {
     color: var(--neutral-white);
+    opacity: 0.8;
 }
 
 .footer-container ul li a:hover {

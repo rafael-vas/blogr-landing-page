@@ -158,10 +158,6 @@
     .footer .footer-container ul .head-link {
         margin-bottom: 10px;
     }
-
-    .footer .footer-container ul .link {
-        opacity: 0.8;
-    }
 }
 
 @media screen and (max-width: 768px) {
