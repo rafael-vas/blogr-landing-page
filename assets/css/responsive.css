@@ -166,6 +166,15 @@
 
 @media screen and (max-width: 768px) {
 
+    .header {
+        height: 570px;
+    }
+
+    .header-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .header-container .menu-hamburger {
         display: block;
         position: absolute;
@@ -249,6 +258,40 @@
             var(--gradient-very-light-red), var(--gradient-light-red)
         );
     }
+
+    .header-container .hero header .title {
+        font-size: 38px;
+    }
+
+    .header-container .hero .btns {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container .hero .btns .btn {
+        font-size: 16px;
+        padding: 14px 0;
+        width: 150px;
+    }
+
+    .main #introduction header .title {
+        letter-spacing: -0.8px;
+    }
+
+    .main #introduction .info article .subtitle,
+    .main #final .content article .subtitle {
+        font-size: 30px;
+    }
+
+    .main #introduction .info,
+    .main #final .content {
+        padding: 0 15px;
+    }
+
+    .main #infrastructure header .title {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -301,5 +344,15 @@
 
     .header-container .topbar .btns .btn.signup {
         font-size: 15px;
+    }
+
+    .main #introduction header .title {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main #infrastructure header {
+        margin-top: 150px;
     }
 }
